@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "consoles-data-analysis"
+version = "0.1.0"
+description = ""
+authors = ["fontanads <fontanads@gmail.com>"]
+readme = "README.md"
+packages = [{include = "consoles_data_analysis"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^2.0.3"
+altair = "^5.0.1"
+numpy = "^1.25.2"
+google-api-python-client = "^2.97.0"
+google-cloud-bigquery = "^3.11.4"
+db-dtypes = "^1.1.1"
+streamlit = "^1.26.0"
+
+
+[tool.poetry.group.dev.dependencies]
+jupyterlab = "^4.0.5"
+pytest = "^7.4.0"
+black = "^23.7.0"
+flake8 = "^6.1.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
