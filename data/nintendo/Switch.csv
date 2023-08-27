@@ -1,16 +1,16 @@
 Product,Group,Geo,FY3/2017,FY3/2018,FY3/2019,FY3/2020,FY3/2021,FY3/2022,FY3/2023
-Nintendo Switch,Standard,Japan,60 ,378 ,385 ,321 ,478 ,256 ,95 
-Nintendo Switch,Standard,The Americas,120 ,594 ,688 ,578 ,707 ,522 ,267 
-Nintendo Switch,Standard,Europe,76 ,379 ,455 ,400 ,502 ,404 ,211 
-Nintendo Switch,Standard,Other,18 ,154 ,169 ,185 ,345 ,174 ,40 
-Nintendo Switch – OLED Model,OLED,Japan,,,,,,161 ,284 
-Nintendo Switch – OLED Model,OLED,The Americas,,,,,,194 ,288 
-Nintendo Switch – OLED Model,OLED,Europe,,,,,,112 ,238 
-Nintendo Switch – OLED Model,OLED,Other,,,,,,113 ,112 
-Nintendo Switch Lite,Lite,Japan,,,,200 ,181 ,102 ,58 
-Nintendo Switch Lite,Lite,The Americas,,,,233 ,409 ,159 ,142 
-Nintendo Switch Lite,Lite,Europe,,,,134 ,213 ,86 ,49 
-Nintendo Switch Lite,Lite,Other,,,,53 ,48 ,22 ,13 
+Switch,Switch,Japan,60 ,378 ,385 ,321 ,478 ,256 ,95 
+Switch,Switch,The Americas,120 ,594 ,688 ,578 ,707 ,522 ,267 
+Switch,Switch,Europe,76 ,379 ,455 ,400 ,502 ,404 ,211 
+Switch,Switch,Other,18 ,154 ,169 ,185 ,345 ,174 ,40 
+Switch – OLED Model,Switch,Japan,,,,,,161 ,284 
+Switch – OLED Model,Switch,The Americas,,,,,,194 ,288 
+Switch – OLED Model,Switch,Europe,,,,,,112 ,238 
+Switch – OLED Model,Switch,Other,,,,,,113 ,112 
+Switch Lite,Switch,Japan,,,,200 ,181 ,102 ,58 
+Switch Lite,Switch,The Americas,,,,233 ,409 ,159 ,142 
+Switch Lite,Switch,Europe,,,,134 ,213 ,86 ,49 
+Switch Lite,Switch,Other,,,,53 ,48 ,22 ,13 
 Software,Switch,Japan,89 ,"1,226 ","2,148 ","3,256 ","4,502 ","4,214 ","4,579 "
 Software,Switch,The Americas,286 ,"2,752 ","5,394 ","7,428 ","10,242 ","10,827 ","8,700 "
 Software,Switch,Europe,142 ,"1,917 ","3,516 ","5,017 ","6,624 ","6,578 ","6,298 "

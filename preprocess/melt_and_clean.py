@@ -80,12 +80,13 @@ if __name__ == "__main__":
     df_nintendo_software_totals_by_date = df_nintendo_software.groupby(["Group", "Date"])["Qty"].sum().reset_index()
     df_nintendo_software_totals_by_date.to_csv(os.path.join(output_path, "nintendo_software_totals_by_date.csv"), index=False)
 
-    df_nintendo_hardware_totals_by_date = df_nintendo_hardware.groupby(["Group", "Date"])["Qty"].sum().reset_index()
+    df_nintendo_hardware_totals_by_date = df_nintendo_hardware.groupby(["Product", "Group", "Date"])["Qty"].sum().reset_index()
     df_nintendo_hardware_totals_by_date.to_csv(os.path.join(output_path, "nintendo_hardware_totals_by_date.csv"), index=False)
     print("Nintendo: done")
 
     # load playstation data
     df_playstation = pd.read_csv(os.path.join(playstation_path, playstation_files[0]))
-    df_playstation = playstation_pipeline(df_playstation).rename(columns={"Product": "Group"})
+    df_playstation = playstation_pipeline(df_playstation)
+    df_playstation["Group"] = df_playstation["Product"]
     df_playstation.to_csv(os.path.join(output_path, "playstation_hardware_totals_by_date.csv"), index=False)
     print("Playstation: done")
